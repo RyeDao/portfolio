@@ -29,7 +29,7 @@ p {
     margin: 0;
 }
 header {
-    padding: 15px 6% 15px 0px;
+    padding: 15px 0% 15px 0px;
     display: flex;
     padding-left: 20px;
     flex-direction: row;
@@ -111,7 +111,7 @@ main {
 }
 
 .page-section > div {
-    flex: 0 0 50%;
+    flex: 0 0 77%;
 }
 
 .page-section p {
@@ -167,7 +167,7 @@ main {
  display: inline-block;
 }
 
-img {
+.flex-container img {
     max-width: 50%;
     max-height: 50%;
 }
