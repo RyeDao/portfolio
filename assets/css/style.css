@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --gray: rgb(52, 52, 52);
+    --white: white;
+    --red: rgb(218, 51, 9);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    background-color: var(--gray);
+}
+
+.title {
+    font-size: 72px;
+    background-image: linear-gradient(100deg, #84ff9b 0%,var(--red) 55% ,rgb(255, 110, 212) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h6 {
+    margin:0;
+}
+p {
+    margin: 0;
+}
+header {
+    padding: 15px 6% 15px 0px;
+    display: flex;
+    padding-left: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--red);
+    box-shadow: 0 5px 35px gray
+}
+
+header span {
+    margin: 0px;
+    font-size: 4vw;
+    line-height: 1;
+}
+ 
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+.nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--white);
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: rgb(255, 110, 212);
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.hero {
+    padding: 2% 6%;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    min-height: 30vh;
+}
+
+.hero div{
+    flex: 0 0 90%;
+}
+
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+    margin: 15px 0;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--red);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 50%;
+}
+
+.page-section p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item{
+    border: 5px solid var(--red);
+    display: flex;
+    justify-content: center;
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50%-1em);
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    font-size: 0.9rem;
+    color: var(--white);
+}
+
+.flex-item:first-child{
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+    background-color: aquamarine;
+
+}
+
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    color: var(--white);
+    padding: 5px;
+    font-size: 1.3rem;
+
+ display: inline-block;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
