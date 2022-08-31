@@ -21,9 +21,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 h6 {
-    margin:0;
+    margin: 0;
 }
 p {
     margin: 0;
@@ -78,20 +77,20 @@ main {
     justify-content: center;
     align-items: flex-end;
     text-align: center;
-    min-height: 30vh;
+    min-height: 20vh;
 }
 
 .hero div{
     flex: 0 0 90%;
 }
 
-.page-wrapper {
+.wrapper {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.page-section {
+.sectionbox {
     margin: 15px 0;
     padding: 5px 0;
     display: flex;
@@ -101,31 +100,31 @@ main {
     justify-content: center;
 }
 
-.page-section > h2 {
+.sectionbox > h2 {
     flex: 0 0 20%;
-    text-align: right;
+    text-align: center;
     padding-right: 15px;
     border-right: 4px solid var(--red);
-    font-size: 4vw;
-    line-height: 1.1;
+    font-size: 3.5vw;
+    line-height: 1;
 }
 
-.page-section > div {
-    flex: 0 0 77%;
+.sectionbox > div {
+    flex: 2 2 77%;
 }
 
-.page-section p {
+.sectionbox p {
     margin-bottom: 20px;
     margin-left: 20px;
     font-size: 20px;
 }
-.flex-container {
+.workboxex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.flex-item{
+.work-item{
     border: 5px solid var(--red);
     display: flex;
     justify-content: center;
@@ -141,12 +140,12 @@ main {
     color: var(--white);
 }
 
-.flex-item:first-child{
+.work-item:first-child{
     min-height: 400px;
     flex-basis: 100%;
 }
 
-.flex-item:hover {
+.work-item:hover {
     background-color: aquamarine;
 
 }
@@ -163,11 +162,10 @@ main {
     color: var(--white);
     padding: 5px;
     font-size: 1.3rem;
-
- display: inline-block;
+    display: inline-block;
 }
 
-.flex-container img {
+.workboxex img {
     max-width: 50%;
     max-height: 50%;
 }
